@@ -1,0 +1,11 @@
+@import url(./reset.css);
+
+
+
+
+
+
+.site_title{position: relative; padding: 20px 40px; font-weight: 800; font-size: 32px; line-height: 1.1; z-index: 999;}
+.site_title > strong{display: block; padding-left: 20px}
+
+.nav_factory{position: fixed; top: 0; left: 0; width: 300px; height: 100%; background: #818181;}

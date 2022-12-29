@@ -60,6 +60,24 @@ button::-moz-focus-inner{margin: 0; padding: 0; border: 0;}
 /* #################### html5 ####################*/
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display: block;}
 
+
+/* #################### color #################### */
+:root{
+	/* color */
+	--color-black: ;
+	--color-white: ;
+	--color-dark-gray: ;
+	--color-gray: ;
+	--color-red: ;
+	--color-orange: ;
+	--color-yellow: ;
+	--color-green: ;
+	--color-blue: ;
+	--color-purple: ;
+	--color-mint: ;
+	
+}
+
 /* #################### skip #################### */
 #skip{position: absolute; width: 100%; height: 0; z-index: 10000;}
 #skip a{display: block; width: 0; height: 0; margin-bottom: -1px; font-size: 1.4rem; text-align: center; white-space: nowrap; background: #2284c7; color: #fff; overflow: hidden;}
@@ -74,16 +92,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .scroll_off{position: fixed; overflow: hidden; height: 100%;}
 
 /* ---------- display ---------- */
-.pc{display: none !important;}
-.tablet{display: none !important;}
-.mobile{display: block !important;}
-
 .show{display: block !important;}
 .hide{display: none !important;}
-
-.dpid{display: inline-block !important;}
-.inline{display: inline !important;}
-
 
 /* #################### float #################### */
 /* ---------- float ---------- */
@@ -286,7 +296,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .pdl150{padding-left: 150px !important;}
 .pdl200{padding-left: 200px !important;}
 
-/* #################### background color #################### */
+
 .bg--black{background-color: #212121 !important;}
 .bg--white{background-color: #fff !important;}
 .bg--gray{background-color: #848484 !important;}
@@ -296,6 +306,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .bg--blue_gray{background-color: #7F9FC1 !important;}
 .bg--mint{background-color: #1FAEBB !important;}
 .bg--purple{background-color: #B27AFB !important;}
+
 
 
 /* #################### border #################### */

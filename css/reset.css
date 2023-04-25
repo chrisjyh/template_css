@@ -50,7 +50,6 @@ input, select, textarea{vertical-align: middle;}
 img, fieldset{border: 0;}
 img{font-size: 0; line-height: 0; vertical-align: top;}
 caption{visibility: hidden; overflow: hidden; width: 0; height: 0; font-size: 0; line-height: 0;}
-legend, label span, .blind{visibility: hidden; overflow: hidden; position: absolute; left: 0; top: 0; margin: 0; padding: 0 !important; width: 0 !important; height: 0 !important; font-size: 0 !important; line-height: 0 !important;}
 label{cursor: pointer;}
 pre{white-space: pre-wrap; word-wrap: break-word;}
 button{display: inline-block; margin: 0; padding: 0; border: 0; background: none; box-shadow: none; text-align: center; cursor: pointer; vertical-align: middle;}
@@ -297,36 +296,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .pdl200{padding-left: 200px !important;}
 
 
-.bg--black{background-color: #212121 !important;}
-.bg--white{background-color: #fff !important;}
-.bg--gray{background-color: #848484 !important;}
-.bg--dark_gray{background-color: #3E444A !important;}
-.bg--red{background-color: #FF3434 !important;}
-.bg--blue{background-color: #5971D6 !important;}
-.bg--blue_gray{background-color: #7F9FC1 !important;}
-.bg--mint{background-color: #1FAEBB !important;}
-.bg--purple{background-color: #B27AFB !important;}
-
-
-
-/* #################### border #################### */
-.bd0{border: 0 !important;}
-.bd_color--light_gray{border-color: #EAECEF;}
-.bt1{border-top: 1px solid #d7dbde;}
-.bt2{border-top: 2px solid #d7dbde;}
-.br1{border-right: 1px solid #d7dbde;}
-.br2{border-right: 2px solid #d7dbde;}
-.bb1{border-bottom: 1px solid #d7dbde;}
-.bb2{border-bottom: 2px solid #d7dbde;}
-.bl1{border-left: 1px solid #d7dbde;}
-.bl2{border-left: 2px solid #d7dbde;}
-
-
-/* #################### vertical-align #################### */
-.align--top{vertical-align: top !important;}
-.align--middle{vertical-align: middle !important;}
-.align--bottom{vertical-align: bottom !important;}
-
 /* #################### font #################### */
 .ellipsis{display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 
@@ -343,39 +312,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .center{text-align: center !important;}
 .left{text-align: left !important;}
 .right{text-align: right !important;}
-
-/* ---------- font color ---------- */
-.font--blue{color: #5971D6 !important;}
-.font--black{color: #212121 !important;}
-.font--red{color: #FF3434 !important;}
-.font--purple{color: #B27AFB !important;}
-.font--5a{color: #5A5A5A !important;}
-.font--84{color: #848484 !important;}
-.font--50per{color: rgba(33, 33, 33, 0.5) !important;}
-
-/* ---------- font size ---------- */
-.font11{font-size: 11px !important;}
-.font12{font-size: 12px !important;}
-.font13{font-size: 13px !important;}
-.font14{font-size: 14px !important;}
-.font15{font-size: 15px !important;}
-.font16{font-size: 16px !important;}
-.font17{font-size: 17px !important;}
-.font18{font-size: 18px !important;}
-.font19{font-size: 19px !important;}
-.font20{font-size: 20px !important;}
-.font21{font-size: 21px !important;}
-.font22{font-size: 22px !important;}
-.font23{font-size: 23px !important;}
-.font24{font-size: 24px !important;}
-.font25{font-size: 25px !important;}
-.font26{font-size: 26px !important;}
-.font27{font-size: 27px !important;}
-.font28{font-size: 28px !important;}
-.font29{font-size: 29px !important;}
-.font30{font-size: 30px !important;}
-
-
 
 @media screen and (min-width: 901px) {
 	.pc{display: block !important;}
